@@ -10,7 +10,7 @@ string decimalToBinary(int decimal) {
 if (decimal == 0) return &quot;0&quot;; // Special case for decimal 0
 string binary = &quot;&quot;; // Initialize empty string to store binary representation
 while (decimal &gt; 0) {
-binary = to_string(decimal % 2) + binary; // Append remainder to binary string  
+binary = to_string(decimal % 2) + binary; // Append remainder to binary string   
 decimal /= 2; // Divide decimal number by 2
 }
 return binary;
